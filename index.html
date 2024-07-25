@@ -1,0 +1,1803 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Razorpay</title>
+    <style>
+        .corefeaturesection{
+            background-size: 100% 100%;
+            padding-top: 10rem;
+            padding-bottom: 10rem;
+        }
+        .ctasection{
+            background-size: 100% 100%;
+        }
+        .companyimage{
+            animation:  10s infinite linear moveCompany;
+        }
+        @keyframes moveCompany{
+            0%{
+                top: 0%;
+            }
+            100%{
+                top: -50%;
+            }
+        }
+    </style>
+   
+</head>
+<body class="text-xs">
+    <div class="overflow-x-hidden relative">
+            <!-- cta banner -->
+             <div class="hidden lg:block">
+    <div class="w-full h-[52px] bg-white relative">
+        <div
+          class="w-0 h-0 absolute top-0 bottom-0 left-0 border-b-[52px] border-b-lightBlue border-r-[40px] border-r-transparent z-[14]"
+        ></div>
+        <div
+          class="hidden lg:block w-2 h-[52px] bg-[#C4DDF9] skew-x-[38deg] absolute left-5 z-[12]"
+        ></div>
+        <div
+          class="w-[120px] h-[52px] bg-[#E7F1FD] skew-x-[38deg] absolute z-[10] left-4 lg:left-6"
+        ></div>
+        <div
+          class="w-[140px] h-[52px] bg-[#F3F8FE] skew-x-[38deg] absolute z-[12] left-[4rem] lg:left-[9rem]"
+        ></div>
+        <div
+          class="absolute top-1/2 left-1/2 z-[1000] w-full -translate-x-1/2 -translate-y-1/2 flex justify-center items-center space-x-4"
+        >
+          <p class="hidden lg:block ">
+            RazorpayX Payroll: 3 Clicks, Payroll Fixed! Automate payroll now!
+          </p>
+          <p class="block lg:hidden font-mullish text-xs md:text-[14px]">
+            Automate Payroll in just 3 clicks now!
+          </p>
+          <button
+            class="py-[10px] px-4 bg-lightBlue text-white font-mullish font-bold text-xs rounded-md"
+          >
+            Know More
+          </button>
+        </div>
+        <div
+          class="w-[140px] h-[52px] bg-[#F3F8FE] skew-x-[38deg] absolute z-[12] right-[4rem] lg:right-[9rem]"
+        ></div>
+        <div
+          class="w-[120px] h-[52px] bg-[#E7F1FD] skew-x-[38deg] absolute z-[10] right-4 lg:right-6"
+        ></div>
+        <div
+          class="hidden lg:block w-2 h-[52px] bg-[#C4DDF9] skew-x-[38deg] absolute right-5 z-[12]"
+        ></div>
+        <div
+          class="w-0 h-0 absolute top-0 bottom-0 right-0 border-t-[52px] border-t-lightBlue border-l-[40px] border-l-transparent z-[14]"
+        ></div>
+      </div>
+    </div>
+      <!-- --------------------------------CTA Banner-------------------------------- -->
+
+    
+        <!-- navbar -->
+    <nav class="bg-deepBlue h-16">
+        <div class="relative w-[1080] mx-auto flex items-center justify-between  px-32 h-16">
+            <a href="/" class=" cursor-pointer py-7 pr-7 px-16">
+                <img 
+                src="./images/razorpay.png" 
+                height="30px"
+                width="125px"
+                />
+                </a>
+                <ul class="flex gap-6">
+                    <li class="text-white font-serif py-7 hover:text-blue-200 cursor-pointer transition-all duration-200 relative
+                     hidden lg:block group">
+                        <a href="#">Payments</a>
+                        <div class="absolute bottom-2 w-full h-1 bg-blue-400 hidden group-hover:block transition-all duration-200 "></div>
+                    </li>
+                    <li class="text-white font-serif py-7
+                    hidden lg:block hover:text-blue-200 cursor-pointer transition-all duration-200 relative group">
+                        <a href="#">Banking+</a>
+                        <div class="absolute bottom-2 w-full h-1 bg-blue-400 hidden group-hover:block transition-all duration-200 "></div>
+                    </li>
+                    <li class="text-white font-serif py-7
+                    hidden lg:block hover:text-blue-200 cursor-pointer transition-all duration-200 relative group">
+                        <a href="#">Corporate Card</a>
+                        
+                    </li>
+                    <li class="text-white font-serif py-7
+                    hidden lg:block hover:text-blue-200 cursor-pointer transition-all duration-200 relative group">
+                        <a href="#">Payroll</a>
+                       
+                    </li>
+                    <li class="text-white font-serif py-7
+                    hidden lg:block hover:text-blue-200 cursor-pointer transition-all duration-200 relative group">
+                        <a href="#">Resources</a>
+                        <div class="absolute bottom-2 w-full h-1 bg-blue-400 hidden group-hover:block transition-all duration-200 "></div>
+                    </li>
+                    <li class="text-white font-serif py-7 hidden lg:block hover:text-blue-200 cursor-pointer transition-all duration-200 relative group">
+                        <a href="#">Support</a>
+                        <div class="absolute bottom-2 w-full h-1 bg-blue-400 hidden group-hover:block transition-all duration-200 "></div>
+                    </li>
+                    <li class="text-white font-serif py-7
+                    hidden lg:block hover:text-blue-200 cursor-pointer transition-all duration-200 relative group">
+                        <a href="#">Pricing</a>
+                        <div class="absolute bottom-2 w-full h-1 bg-blue-400 hidden group-hover:block transition-all duration-200 "></div>
+                    </li>
+                    
+                </ul>
+                <div class="flex space-x-6">
+                    <img class="h-5 w-9 my-3 hidden lg:block" src="./images/logo.jpeg"/>
+                    <button class="bg-deepBlue  h-12 w-32 py-3 px-4 text-white border rounded-sm text-sm font-bold ">Log in</button>
+                    <button class="bg-white py-3 px-5 h-12 w-35 text-blue-400 
+                    hidden lg:block rounded-sm text-sm font-bold border transition-all duration-200 hover:text-blue-300 ">Sign up</button>
+                </div>
+        </div>
+        
+            </nav>
+        
+            <!-- hero section  -->
+            <div
+            class="relative bg-deepBlue">
+            <div class="w-10/12 max-w-[1080px] min-h-[650px] flex flex-col lg:flex-row items-center mx-[250px] mr-[250px] py-[85px]">
+             <!-- left part -->
+          
+               <div class="space-y-6">
+                <h1 class="font-mono font-bold text-[40px] text-white leading-[1.2] max-w-[450px]">Power your finance, grow your bussiness.         </h1>
+                <div class="w-6 h-1 bg-green-400"></div>
+                <p class="font-serif text-[18px] text-white opacity-70 leading-[1.2] max-w-[380px]">Accept payments from customers, Automate payout to vendors & employees, Never run out of working capital</p>
+            <button class="bg-blue-500 text-white rounded font-bold hover:bg-blue-300 transition-all duration-200 py-[14px] px-[18px] w-28">Sign up now</button>
+            </div>
+        <!-- right part -->
+         
+            <img src="./images/hero-illustration.jpg" alt=""
+            class="max-w-[680px] w-[400px] h-[250px]">
+        </div>
+            <!-- shape -->
+             <div>
+             <img src="" alt="">
+            </div>
+        </div>
+            </section>
+            <!-- Feature section -->
+             <div class="bg-white w-full -mt-40">
+             <section class= "w-[70%] max-w-[1080px] mx-auto bg-white overflow-hidden relative mt-[190px]">
+                <img src="./images/Free-Dotted-Curved-Arrow-Vector-1.webp" alt="" width="233" height="167" 
+                class="absolute -top-[10rem] left-[10rem] ">
+                <img src="./images/Free-Dotted-Curved-Arrow-Vector-1.webp" alt="" width="233" height="167"
+                class="absolute top-0[3rem] right-[0rem] inline-block rotate-180">
+              <div  class="relative w-11/12 max-w-[1080px] mx-auto pt-6"> 
+                 <h2 class="text-black font-extrabold font-serif text-center text-2xl leading-[1] hidden md:block">
+                    Accept payments with razorpay suite</h2>
+                    <h2 class="text-black font-extrabold font-serif text-center text-3xl leading-[1] md:hidden">
+                        Explore payments razorpay suite</h2>
+                 <div class="w-6 h-1 bg-green-400 mx-auto mt-2 mb-4"></div>
+                 <!-- content -->
+                  <div class=" w-full bg-white flex rounded-md relative p-10 py-12 min-h-[520px] border px-[150px]">
+                    <!-- left section -->
+                     <div class="flex flex-col justify-between w-full mx-auto">
+                         <h3 class="font-serif text-xl leading-[1] font-bold min-w-[200px] max-w-[400px]">Supercharge your business with all-powerful 
+                            <span class="text-blue-500 font-bold
+                            ">Payment gateway</span> </h3>
+                         <ul class="space-y-2">
+                            <li class="font-mono flex items-center space-x-2 font-bold">
+                              
+        
+                                <h3>&#x2713;</h3>
+                                <span>100+ payment methods</span>
+                            </li>
+                            <li class="font-mono flex items-center space-x-2 font-bold">
+                                <h3>&#x2713;</h3>
+                                <span>Industry loading success rate</span>
+                            </li>
+                            <li class="font-mono flex items-center space-x-2 font-bold">
+                                <h3>&#x2713;</h3>
+                                <span>Superior checkout experience</span>
+                            </li>
+                            <li class="font-mono flex items-center space-x-2 font-bold">
+                                <h3>&#x2713;</h3>
+                                <span>Easy to integrate</span>
+                            </li>
+                            <li class="font-mono flex items-center space-x-2 font-bold">
+                                <h3>&#x2713;</h3>
+                                <span>Instant settlements from day 1</span>
+                            </li>
+                            <li class="font-mono flex items-center space-x-2 font-bold">
+                                <h3>&#x2713;</h3>
+                                <span>
+                                    In-depth reports and insights
+                                </span>
+                            </li>
+                         </ul>
+                         <!-- for button and hyperlink -->
+                          <div class="flex flex-col-reverse md:flex-row lg:flex-row items-center space-x-4">
+                            <button class="bg-blue-500 text-white rounded font-bold
+                             w-full md:w-fit hover:bg-blue-300 transition-all
+                             duration-200 py-[14px] px-[18px]">
+                                Sign up now &#8594;
+                                
+                            </button>
+                            
+                            <!-- hyperlink  -->
+                             <div class="flex cursor-pointer group">
+                                <a href="#"
+                                class="font-sans font-bold justify-start text-blue-500 hover:text-blue-800
+                                         transition-all duration-200 
+                                         ">Know more &gt;</a>
+                                
+                             </div>
+                          </div>
+                     </div>
+                     <img src="./images/payment gateway.jpeg" alt=""
+                     class="w-[400px] absolute left-[500px] top-[70px] hidden md:max-w-[200px] md:top-[150px] md:left-[400px] lg:max-w-[400px] md:block lg:block" >
+                 </div>
+             <!-- boxes -->
+                 <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">
+                     <!--Box1-->
+                     <div class="w-full min-h-[15rem] relative cursor-pointer">
+                         <img src="./Images/payment-link-icon.svg" alt=""
+                         class="bg-blue-950 absolute right-3 top-3 w-12 h-12 rounded-full z-[8]
+                         transition-all duration-200">
+                         
+                         <!--box shape-->
+                         <svg
+                             viewBox="0 0 349.32501220703125 225"
+                             xmlns="http://www.w3.org/2000/svg"
+                             preserveAspectRatio="none"
+                             class="stroke-1 stroke-[#818597] h-full w-full absolute z-[9] transition-all duration-200"
+                             style="stroke-opacity: 0.15"
+                              >
+                       <path
+                             d="m 0 6 
+                         a 6 6 0 0 1 6 -6 
+                         h 250.32501220703125 
+                         a 16 16 0 0 1 11 5 
+                         l 77 77 
+                         a 16 16 0 0 1 5 11 
+                         v 126 
+                         a 6 6 0 0 1 -6 6 
+                         h -337.32501220703125 
+                         a 6 6 0 0 1 -6 -6 
+                         z"
+                             fill="#fff"
+                       ></path>
+                         </svg>
+         
+                         <!--box -content -->
+                         <div class="z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
+                             <!--text part-->
+                             <div>
+                                 <h3 class="font-mullish font-bold text-deepBlueHead leading-[1.2] text-[1.375rem]">Payment Links</h3>
+                                 <p class="font-mullish text-grayText mt-6">
+                                     Share payment link via an email, SMS, messenger, chatbot etc. and get paid immediately</p>
+                             </div>
+         
+                             <!--hyperlink know more-->
+                             <div class="flex items-center cursor-pointer group">
+                                 <a href="#" 
+                                 class="font-mullish font-bold text-lightBlue500 
+                                 group-hover:text-grayBlue transition-all duration-200"
+                                 >Know More</a>
+                                 <i
+                                 data-feather="chevron-right"
+                                 class="w-5 h-5 text-lightBlue500 
+                                 group-hover:text-grayBlue transition-all duration-200"></i>
+                             </div>
+         
+                         </div>
+         
+                     </div>
+                       <!--Box2-->
+                       <div class="w-full min-h-[15rem] relative cursor-pointer">
+                        <img src="./Images/payment-link-icon.svg" alt=""
+                        class="bg-deepBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8]
+                        transition-all duration-200">
+                        
+                        <!--box shape-->
+                        <svg
+                            viewBox="0 0 349.32501220703125 225"
+                            xmlns="http://www.w3.org/2000/svg"
+                            preserveAspectRatio="none"
+                            class="stroke-1 stroke-[#818597] h-full w-full absolute z-[9] transition-all duration-200"
+                            style="stroke-opacity: 0.15"
+                             >
+                      <path
+                            d="m 0 6 
+                        a 6 6 0 0 1 6 -6 
+                        h 250.32501220703125 
+                        a 16 16 0 0 1 11 5 
+                        l 77 77 
+                        a 16 16 0 0 1 5 11 
+                        v 126 
+                        a 6 6 0 0 1 -6 6 
+                        h -337.32501220703125 
+                        a 6 6 0 0 1 -6 -6 
+                        z"
+                            fill="#fff"
+                      ></path>
+                        </svg>
+        
+                        <!--box -content -->
+                        <div class="z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
+                            <!--text part-->
+                            <div>
+                                <h3 class="font-mullish font-bold text-deepBlueHead leading-[1.2] text-[1.375rem]">Payment pages</h3>
+                                <p class="font-mullish text-grayText mt-6">
+                                    Take your store online instantly with zero coding.Accept international and domestic payments.</p>
+                            </div>
+        
+                            <!--hyperlink know more-->
+                            <div class="flex items-center cursor-pointer group">
+                                <a href="#" 
+                                class="font-mullish font-bold text-lightBlue500 
+                                group-hover:text-grayBlue transition-all duration-200"
+                                >Know More</a>
+                                <i
+                                data-feather="chevron-right"
+                                class="w-5 h-5 text-lightBlue500 
+                                group-hover:text-grayBlue transition-all duration-200"></i>
+                            </div>
+        
+                        </div>
+        
+                    </div>
+                    <!--Box3-->
+                    <div class="w-full min-h-[15rem] relative cursor-pointer">
+                        <img src="./Images/payment-link-icon.svg" alt=""
+                        class="bg-blue-950 absolute right-3 top-3 w-12 h-12 rounded-full z-[8]
+                        transition-all duration-200">
+                        
+                        <!--box shape-->
+                        <svg
+                            viewBox="0 0 349.32501220703125 225"
+                            xmlns="http://www.w3.org/2000/svg"
+                            preserveAspectRatio="none"
+                            class="stroke-1 stroke-[#818597] h-full w-full absolute z-[9] transition-all duration-200"
+                            style="stroke-opacity: 0.15"
+                             >
+                      <path
+                            d="m 0 6 
+                        a 6 6 0 0 1 6 -6 
+                        h 250.32501220703125 
+                        a 16 16 0 0 1 11 5 
+                        l 77 77 
+                        a 16 16 0 0 1 5 11 
+                        v 126 
+                        a 6 6 0 0 1 -6 6 
+                        h -337.32501220703125 
+                        a 6 6 0 0 1 -6 -6 
+                        z"
+                            fill="#fff"
+                      ></path>
+                        </svg>
+        
+                        <!--box -content -->
+                        <div class="z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
+                            <!--text part-->
+                            <div>
+                                <h3 class="font-mullish font-bold text-deepBlueHead leading-[1.2] text-[1.375rem]">Payment buttons</h3>
+                                <p class="font-mullish text-grayText mt-6">
+                                    Create,copy and collect with payment button.Collect one time or subscription payments and more</p>
+                            </div>
+        
+                            <!--hyperlink know more-->
+                            <div class="flex items-center cursor-pointer group">
+                                <a href="#" 
+                                class="font-mullish font-bold text-lightBlue500 
+                                group-hover:text-grayBlue transition-all duration-200"
+                                >Know More</a>
+                                <i
+                                data-feather="chevron-right"
+                                class="w-5 h-5 text-lightBlue500 
+                                group-hover:text-grayBlue transition-all duration-200"></i>
+                            </div>
+        
+                        </div>
+        
+                    </div>
+                    <!--Box4-->
+                    <div class="w-full min-h-[15rem] relative cursor-pointer">
+                        <img src="./Images/payment-link-icon.svg" alt=""
+                        class="bg-blue-950 absolute right-3 top-3 w-12 h-12 rounded-full z-[8]
+                        transition-all duration-200">
+                        
+                        <!--box shape-->
+                        <svg
+                            viewBox="0 0 349.32501220703125 225"
+                            xmlns="http://www.w3.org/2000/svg"
+                            preserveAspectRatio="none"
+                            class="stroke-1 stroke-[#818597] h-full w-full absolute z-[9] transition-all duration-200"
+                            style="stroke-opacity: 0.15"
+                             >
+                      <path
+                            d="m 0 6 
+                        a 6 6 0 0 1 6 -6 
+                        h 250.32501220703125 
+                        a 16 16 0 0 1 11 5 
+                        l 77 77 
+                        a 16 16 0 0 1 5 11 
+                        v 126 
+                        a 6 6 0 0 1 -6 6 
+                        h -337.32501220703125 
+                        a 6 6 0 0 1 -6 -6 
+                        z"
+                            fill="#fff"
+                      ></path>
+                        </svg>
+        
+                        <!--box -content -->
+                        <div class="z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
+                            <!--text part-->
+                            <div>
+                                <h3 class="font-mullish font-bold text-deepBlueHead leading-[1.2] text-[1.375rem]">Subscriptions</h3>
+                                <p class="font-mullish text-grayText mt-6">
+                                    Subscription plans with automated recurring transactions on various payment modes.</p>
+                            </div>
+        
+                            <!--hyperlink know more-->
+                            <div class="flex items-center cursor-pointer group">
+                                <a href="#" 
+                                class="font-mullish font-bold text-lightBlue500 
+                                group-hover:text-grayBlue transition-all duration-200"
+                                >Know More</a>
+                                <i
+                                data-feather="chevron-right"
+                                class="w-5 h-5 text-lightBlue500 
+                                group-hover:text-grayBlue transition-all duration-200"></i>
+                            </div>
+        
+                        </div>
+        
+                    </div>
+                    <!--Box5-->
+                    <div class="w-full min-h-[15rem] relative cursor-pointer">
+                        <img src="./Images/payment-link-icon.svg" alt=""
+                        class="bg-blue-950 absolute right-3 top-3 w-12 h-12 rounded-full z-[8]
+                        transition-all duration-200">
+                        
+                        <!--box shape-->
+                        <svg
+                            viewBox="0 0 349.32501220703125 225"
+                            xmlns="http://www.w3.org/2000/svg"
+                            preserveAspectRatio="none"
+                            class="stroke-1 stroke-[#818597] h-full w-full absolute z-[9] transition-all duration-200"
+                            style="stroke-opacity: 0.15"
+                             >
+                      <path
+                            d="m 0 6 
+                        a 6 6 0 0 1 6 -6 
+                        h 250.32501220703125 
+                        a 16 16 0 0 1 11 5 
+                        l 77 77 
+                        a 16 16 0 0 1 5 11 
+                        v 126 
+                        a 6 6 0 0 1 -6 6 
+                        h -337.32501220703125 
+                        a 6 6 0 0 1 -6 -6 
+                        z"
+                            fill="#fff"
+                      ></path>
+                        </svg>
+        
+                        <!--box -content -->
+                        <div class="z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
+                            <!--text part-->
+                            <div>
+                                <h3 class="font-mullish font-bold text-deepBlueHead leading-[1.2] text-[1.375rem]">Route</h3>
+                                <p class="font-mullish text-grayText mt-6">
+                                    Split incoming payments auto-matically to vendor's accounts.Manage marketplace money flow.</p>
+                            </div>
+        
+                            <!--hyperlink know more-->
+                            <div class="flex items-center cursor-pointer group">
+                                <a href="#" 
+                                class="font-mullish font-bold text-lightBlue500 
+                                group-hover:text-grayBlue transition-all duration-200"
+                                >Know More</a>
+                                <i
+                                data-feather="chevron-right"
+                                class="w-5 h-5 text-lightBlue500 
+                                group-hover:text-grayBlue transition-all duration-200"></i>
+                            </div>
+        
+                        </div>
+        
+                    </div>
+                    <!--Box6-->
+                    <div class="w-full min-h-[15rem] relative cursor-pointer">
+                        <img src="./Images/payment-link-icon.svg" alt=""
+                        class="bg-blue-950 absolute right-3 top-3 w-12 h-12 rounded-full z-[8]
+                        transition-all duration-200">
+                        
+                        <!--box shape-->
+                        <svg
+                            viewBox="0 0 349.32501220703125 225"
+                            xmlns="http://www.w3.org/2000/svg"
+                            preserveAspectRatio="none"
+                            class="stroke-1 stroke-[#818597] h-full w-full absolute z-[9] transition-all duration-200"
+                            style="stroke-opacity: 0.15"
+                             >
+                      <path
+                            d="m 0 6 
+                        a 6 6 0 0 1 6 -6 
+                        h 250.32501220703125 
+                        a 16 16 0 0 1 11 5 
+                        l 77 77 
+                        a 16 16 0 0 1 5 11 
+                        v 126 
+                        a 6 6 0 0 1 -6 6 
+                        h -337.32501220703125 
+                        a 6 6 0 0 1 -6 -6 
+                        z"
+                            fill="#fff"
+                      ></path>
+                        </svg>
+        
+                        <!--box -content -->
+                        <div class="z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
+                            <!--text part-->
+                            <div>
+                                <h3 class="font-mullish font-bold text-deepBlueHead leading-[1.2] text-[1.375rem]">Smart Collection</h3>
+                                <p class="font-mullish text-grayText mt-6">
+                                   Automatically reconcile incoming NEFT,RTGS,IMPS,UPI payments using virtual account and virtual ID's.</p>
+                            </div>
+        
+                            <!--hyperlink know more-->
+                            <div class="flex items-center cursor-pointer group">
+                                <a href="#" 
+                                class="font-mullish font-bold text-lightBlue500 
+                                group-hover:text-grayBlue transition-all duration-200"
+                                >Know More</a>
+                                <i
+                                data-feather="chevron-right"
+                                class="w-5 h-5 text-lightBlue500 
+                                group-hover:text-grayBlue transition-all duration-200"></i>
+                            </div>
+        
+                        </div>
+        
+                    </div>
+                    
+        
+                  </div>
+        
+              </div>
+              
+             </section>
+            </div>
+            <!-- feature section2  -->
+             <section 
+             class="bg-[url(./images/feature-section-2BG.svg)] bg-cover bg-white bg-no-repeat pt-[12rem] pb-20 ">
+             
+                <div
+                class="w-[70%] max-w-[1080px] pt-4 mx-auto relative">
+                
+                    <h2 
+                    class="font-sans font-bold text-2xl text-center leading-[1.2] text-white">Explore razorpay business banking</h2>
+                    <div class="w-6 h-1 bg-green-900 mx-auto mt-2 mb-16"></div>
+                        
+                        <!-- Main feature box -->
+                         <div class="w-full min-h-[440px] flex flex-col relative">
+                            <img src="./images/x-flame-1.png" alt=""
+                            loading="lazy"
+                            class="absolute -top-[142px] -left-[140px] w-[200px]">
+                            <img src="./images/x-flame-2.png" alt=""
+                            loading="lazy"
+                            class="absolute top-[150px] -right-[180px] w-[270px]">
+        
+                            <!-- Content box -->
+                             
+                            <div class=" bg-deepBlue w-full mb-20 flex flex-col rounded-md relative p-10 py-12 min-h-[520px] border border-slate-700 px-[150px]">
+                                <!-- left section -->
+                                 <div class="flex flex-col justify-between items-start h-full w-full gap-12 z-[100]">
+                                     <h3 class="font-serif text-[27px] leading-10 font-bold min-w-[200px] max-w-[500px] text-white">Manage your company's finance with
+                                        <img src="./images/razorpayX.svg" alt=""
+                                        loading="lazy"
+                                        
+                                        class="inline h-[32px] w-[168px]">
+                                        <span class="text-green-400 font-bold
+                                        ">Business Banking</span> </h3>
+                                     <ul class="space-y-3 text-white">
+                                        <li class="font-mono flex items-center space-x-2 font-bold">
+                                          
+                    
+                                            <h3 class="text-green-400">&#x2713;</h3>
+                                            <span>Open a fully digital current account.</span>
+                                        </li>
+                                        <li class="font-mono flex items-center space-x-2 font-bold">
+                                            <h3 class="text-green-400">&#x2713;</h3>
+                                            <span>Automate payable and compliment payments.</span>
+                                        </li>
+                                        <li class="font-mono flex items-center space-x-2 font-bold">
+                                            <h3 class="text-green-400">&#x2713;</h3>
+                                            <span>Simplify and track spends with credit cards.</span>
+                                        </li>
+                                        <li class="font-mono flex items-center space-x-2 font-bold">
+                                            <h3 class="text-green-400">&#x2713;</h3>
+                                            <span>View financial insights at a glance.</span>
+                                        </li>
+                                       
+                                     </ul>
+                                     <!-- for button and hyperlink -->
+                                     <!-- button -->
+                                      <div class="flex flex-col-reverse md:flex-row h-full w-full items-center space-x-4">
+                                      <button class="bg-blue-950 border  relative md:w-fit
+                                       md:justify-start items-center text-white 
+                                       font-serif rounded-md hover:bg-blue-700 transition-all duration-200 py-[14px] 
+                                       px-[18px] md:pr-[90px] w-full md:w-fit">
+                                        Sign Up
+                                        <div class="w-12 h-[60px] bg-green-600 absolute right-4 -top-2 skew-x-[20deg] flex justify-center items-center"><svg
+                                            class="w-[20px] h-[20px] -skew-x-[20deg]" 
+                                            xmlns="http://www.w3.org/2000/svg"
+                                             viewBox="0 0 25 25"><path style="fill:#ffffff" 
+                                            d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5z" 
+                                            data-name="Right"/></svg></div>
+                                    </button>
+                                      <!-- hyperlink -->
+                                       <div class="flex flex-row cursor-pointer group text-[15px]">
+                                        <a class="font-serif text-blue-400 font-bold hover:text-blue-900
+                                        transition-all duration-200 self-start" href="">Know more</a>
+                                        
+                                     
+                                       
+                                       </div>
+                                    </div>
+                                    <div class="-z-30">
+                                 <img src="./images/buisness-banking.png" alt=""
+                                 class="max-w-[500px] absolute top-[50px] right-0 
+                                  hidden md:max-w-[200px] md:right-0 md:bottom-0 lg:max-w-[400px] md:block lg:block" >
+                                </div>
+                             </div>
+                         </div>
+        
+                         <!-- Card box -->
+                          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full gap-4 top-0 pb-32">
+                            
+                             <!--Box1-->
+                     <div class="w-full min-h-[15rem] relative cursor-pointer">
+                        <img src="./Images/current-icon.svg" alt=""
+                        class="bg-blue-950 absolute right-3 top-3 w-12 h-12 rounded-full z-[8]
+                        transition-all duration-200">
+                        
+                        <!--box shape-->
+                        <svg
+                        viewBox="0 0 349.32501220703125 225"
+                        xmlns="http://www.w3.org/2000/svg"
+                        preserveAspectRatio="none"
+                        class="stroke-1 stroke-[#525a76] h-full w-full absolute z-[90] featureCardSVG transition-all duration-200"
+                        style="stroke-opacity: 0.8"
+                      >
+                        <path
+                          d="m 0 6 
+                        a 6 6 0 0 1 6 -6 
+                        h 250.32501220703125 
+                        a 16 16 0 0 1 11 5 
+                        l 77 77 
+                        a 16 16 0 0 1 5 11 
+                        v 126 
+                        a 6 6 0 0 1 -6 6 
+                        h -337.32501220703125 
+                        a 6 6 0 0 1 -6 -6 
+                        z"
+                          fill="#181C2E"
+                        ></path>
+                      </svg>
+        
+                        <!--box -content -->
+                        <div class="z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
+                            <!--text part-->
+                            <div>
+                                <h3 class="font-mullish font-bold text-white leading-[1.2] text-[1.375rem]">
+                                    Current Account
+                                </h3>
+                                <p class="font-mullish text-grayText mt-6">
+                                   Create account for fast growing businesses, supported by best-in-class technology.
+                                </p>
+                            </div>
+        
+                            <!--hyperlink know more-->
+                            <div class="flex items-center cursor-pointer group">
+                                <a href="#" 
+                                class="font-mullish font-bold text-lightBlue500 
+                                group-hover:text-grayBlue transition-all duration-200"
+                                >Know More</a>
+                                <i
+                                data-feather="chevron-right"
+                                class="w-5 h-5 text-lightBlue500 
+                                group-hover:text-grayBlue transition-all duration-200"></i>
+                            </div>
+        
+                        </div>
+        
+                    </div>
+                             <!-- box2 -->
+                             <div class="w-full min-h-[15rem] relative cursor-pointer">
+                                <img src="./Images/current-icon.svg" alt=""
+                                class="bg-blue-950 absolute right-3 top-3 w-12 h-12 rounded-full z-[8]
+                                transition-all duration-200">
+                                
+                                <!--box shape-->
+                                <svg
+                            viewBox="0 0 349.32501220703125 225"
+                            xmlns="http://www.w3.org/2000/svg"
+                            preserveAspectRatio="none"
+                            class="stroke-1 stroke-[#525a76] h-full w-full absolute z-[90] featureCardSVG transition-all duration-200"
+                            style="stroke-opacity: 0.8"
+                          >
+                            <path
+                              d="m 0 6 
+                            a 6 6 0 0 1 6 -6 
+                            h 250.32501220703125 
+                            a 16 16 0 0 1 11 5 
+                            l 77 77 
+                            a 16 16 0 0 1 5 11 
+                            v 126 
+                            a 6 6 0 0 1 -6 6 
+                            h -337.32501220703125 
+                            a 6 6 0 0 1 -6 -6 
+                            z"
+                              fill="#181C2E"
+                            ></path>
+                          </svg>
+                
+                                <!--box -content -->
+                                <div class="z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
+                                    <!--text part-->
+                                    <div>
+                                        <h3 class="font-mullish font-bold text-white leading-[1.2] text-[1.375rem]">
+                                            Capital and Credit
+                                        </h3>
+                                        <p class="font-mullish text-grayText mt-6">
+                                            Instant additional cash and corporate cards designed for growing businesses.
+                                        </p>
+                                    </div>
+                
+                                    <!--hyperlink know more-->
+                                    <div class="flex items-center cursor-pointer group">
+                                        <a href="#" 
+                                        class="font-mullish font-bold text-lightBlue500 
+                                        group-hover:text-grayBlue transition-all duration-200"
+                                        >Know More</a>
+                                        <i
+                                        data-feather="chevron-right"
+                                        class="w-5 h-5 text-lightBlue500 
+                                        group-hover:text-grayBlue transition-all duration-200"></i>
+                                    </div>
+                
+                                </div>
+                
+                            </div>
+                              <!-- Box3 -->
+                              <div class="w-full min-h-[15rem] relative cursor-pointer">
+                                <img src="./Images/current-icon.svg" alt=""
+                                class="bg-blue-950 absolute right-3 top-3 w-12 h-12 rounded-full z-[8]
+                                transition-all duration-200">
+                                
+                                <!--box shape-->
+                                <svg
+                            viewBox="0 0 349.32501220703125 225"
+                            xmlns="http://www.w3.org/2000/svg"
+                            preserveAspectRatio="none"
+                            class="stroke-1 stroke-[#525a76] h-full w-full absolute z-[90] featureCardSVG transition-all duration-200"
+                            style="stroke-opacity: 0.8"
+                          >
+                            <path
+                              d="m 0 6 
+                            a 6 6 0 0 1 6 -6 
+                            h 250.32501220703125 
+                            a 16 16 0 0 1 11 5 
+                            l 77 77 
+                            a 16 16 0 0 1 5 11 
+                            v 126 
+                            a 6 6 0 0 1 -6 6 
+                            h -337.32501220703125 
+                            a 6 6 0 0 1 -6 -6 
+                            z"
+                              fill="#181C2E"
+                            ></path>
+                          </svg>
+                
+                                <!--box -content -->
+                                <div class="z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
+                                    <!--text part-->
+                                    <div>
+                                        <h3 class="font-mullish font-bold text-white leading-[1.2] text-[1.375rem]">
+                                           Payouts
+                                        </h3>
+                                        <p class="font-mullish text-grayText mt-6">
+                                           Make simple,secure and reliable payouts to bank accounts,
+                                           UPI ID's or wallets.
+                                        </p>
+                                    </div>
+                
+                                    <!--hyperlink know more-->
+                                    <div class="flex items-center cursor-pointer group">
+                                        <a href="#" 
+                                        class="font-mullish font-bold text-lightBlue500 
+                                        group-hover:text-grayBlue transition-all duration-200"
+                                        >Know More</a>
+                                        <i
+                                        data-feather="chevron-right"
+                                        class="w-5 h-5 text-lightBlue500 
+                                        group-hover:text-grayBlue transition-all duration-200"></i>
+                                    </div>
+                
+                                </div>
+                
+                            </div>
+                          </div>
+                          <!-- Demo box -->
+                           <div class=" w-full hidden md:flex-col lg:flex-row 
+                           md:block lg:flex items-center justify-evenly border rounded-md
+                            border-slate-700 mb-56 gap-y-6 p-8 relative
+                           ">
+                            <p class="text-white leading-[1] font-serif text-xl">
+                                Checkout the live demo to learn how Razorpay works. <span class="font-bold"> No Sign-up required!</span>
+                            </p>
+                           <!-- button -->
+                           <div class=" h-full items-center space-x-4">
+                            <button class="bg-blue-950 border  relative md:w-fit
+                             md:justify-start items-center text-white 
+                             font-serif rounded-md hover:bg-blue-700 transition-all duration-200 py-[14px] 
+                             px-[18px] md:pr-[90px]">
+                              Check-out the demo
+                              <div class="w-12 h-[60px] bg-green-600 absolute right-4 -top-2 skew-x-[20deg] flex justify-center items-center"><svg
+                                  class="w-[20px] h-[20px] -skew-x-[20deg]" 
+                                  xmlns="http://www.w3.org/2000/svg"
+                                   viewBox="0 0 25 25"><path style="fill:#ffffff" 
+                                  d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5z" 
+                                  data-name="Right"/></svg></div>
+                          </button>
+                           </div>
+                    
+                </div>
+             </section>
+             <!-- New Features -->
+              <section class="bg-white relative">
+                <div class="relative w-[70%] max-w-[1080px] mx-auto pt-4">
+                <img src="./images/feature-section1-dottedrows.png" alt=""
+                loading="lazy" 
+                class="absolute w-[233px] left-[300px] -z-10">
+                <img src="./images/feature-section1-dottedrows.png" alt=""
+                loading="lazy"
+                class="absolute w-[233px] -right-[3.5rem] top-[6rem] -z-10">
+        
+                <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-10 gap-x-4 relative z-10">
+                    <!-- item 1 -->
+                     <div class="relative flex items-center">
+                        <h2 class="font-serif text-4xl font-black">New in the <br>
+                            <span class="text-lightBlue">
+                            Razorpay
+                            </span><br>
+                            product suite
+                        </h2>
+                     </div>
+                     <!-- Card 1 -->
+                      <div class="bg-[url(/images/instant-settlement-bg.svg)] w-[250px] max-h-[300px] cursor-pointer
+                      bg-no-repeat hover:scale-105 transition-all duration-200 
+                      hover:bg-[url(/images/instant-settlement-bghover.svg)]">
+                      <img src="./images/razorpayXicon.svg" alt=""
+                      class="w-6 h-6">
+                      <h3 class="font-serif text-lg font-bold pt-4">Corporate cards</h3>
+                      <p class="font-serif leading-normal py-3 text-grayText ">
+                        Simplify your recurring , international anmd team expenses with
+                        saving on every spend.Save upto 10 lakhs every month.
+                      </p>
+                      <!-- hyperlink -->
+                       <div class="flex flex-row items-center cursor-pointer group">
+                        <a href=""
+                        class="font-serif font-bold text-blue-500 group-hover:text-lightBlue transition-all duration-200 ">Know more</a>
+                        <i></i>
+                       </div>
+                       </div>
+                      <!-- Card 2 -->
+                      <div class="bg-[url(/images/instant-settlement-bg.svg)] w-[250px] max-h-[300px] cursor-pointer
+                      bg-no-repeat hover:scale-105 transition-all duration-200 
+                      hover:bg-[url(/images/instant-settlement-bghover.svg)]">
+                      <img src="./images/razorpayXicon.svg" alt=""
+                      class="w-6 h-6">
+                      <h3 class="font-serif text-lg font-bold pt-4">Corporate cards</h3>
+                      <p class="font-serif leading-normal py-3 text-grayText ">
+                        Simplify your recurring , international anmd team expenses with
+                        saving on every spend.Save upto 10 lakhs every month.
+                      </p>
+                      <!-- hyperlink -->
+                       <div class="flex flex-row items-center cursor-pointer group">
+                        <a href=""
+                        class="font-serif font-bold text-blue-500 group-hover:text-lightBlue transition-all duration-200 ">Know more</a>
+                        <i></i>
+                       </div>
+                       </div>
+                       <!-- Card 3 -->
+                       <div class="bg-[url(/images/instant-settlement-bg.svg)] w-[250px] max-h-[300px] cursor-pointer
+                       bg-no-repeat hover:scale-105 transition-all duration-200 
+                       hover:bg-[url(/images/instant-settlement-bghover.svg)]">
+                       <img src="./images/razorpayXicon.svg" alt=""
+                       class="w-6 h-6">
+                       <h3 class="font-serif text-lg font-bold pt-4">Corporate cards</h3>
+                       <p class="font-serif leading-normal py-3 text-grayText ">
+                         Simplify your recurring , international anmd team expenses with
+                         saving on every spend.Save upto 10 lakhs every month.
+                       </p>
+                       <!-- hyperlink -->
+                        <div class="flex flex-row items-center cursor-pointer group">
+                         <a href=""
+                         class="font-serif font-bold text-blue-500 group-hover:text-lightBlue transition-all duration-200 ">Know more</a>
+                         <i></i>
+                        </div>
+                        </div>
+                        <!-- Card 4 -->
+                        <div class="bg-[url(/images/instant-settlement-bg.svg)] w-[250px] max-h-[300px] cursor-pointer
+                        bg-no-repeat hover:scale-105 transition-all duration-200 
+                        hover:bg-[url(/images/instant-settlement-bghover.svg)]">
+                        <img src="./images/razorpayXicon.svg" alt=""
+                        class="w-6 h-6">
+                        <h3 class="font-serif text-lg font-bold pt-4">Corporate cards</h3>
+                        <p class="font-serif leading-normal py-3 text-grayText ">
+                          Simplify your recurring , international anmd team expenses with
+                          saving on every spend.Save upto 10 lakhs every month.
+                        </p>
+                        <!-- hyperlink -->
+                         <div class="flex flex-row items-center cursor-pointer group">
+                          <a href=""
+                          class="font-serif font-bold text-blue-500 group-hover:text-lightBlue transition-all duration-200 ">Know more</a>
+                          <i></i>
+                         </div>
+                         </div>
+                         <!-- Card 5 -->
+                         <div class="bg-[url(/images/instant-settlement-bg.svg)] w-[250px] max-h-[300px] cursor-pointer
+                         bg-no-repeat hover:scale-105 transition-all duration-200 
+                         hover:bg-[url(/images/instant-settlement-bghover.svg)]">
+                         <img src="./images/razorpayXicon.svg" alt=""
+                         class="w-6 h-6">
+                         <h3 class="font-serif text-lg font-bold pt-4">Corporate cards</h3>
+                         <p class="font-serif leading-normal py-3 text-grayText ">
+                           Simplify your recurring , international anmd team expenses with
+                           saving on every spend.Save upto 10 lakhs every month.
+                         </p>
+                         <!-- hyperlink -->
+                          <div class="flex flex-row items-center cursor-pointer group">
+                           <a href=""
+                           class="font-serif font-bold text-blue-500 group-hover:text-lightBlue transition-all duration-200 ">Know more</a>
+                           <i></i>
+                          </div>
+                          </div>
+                </div>
+                </div>
+              </section>
+        
+              <!-- Core features -->
+               <section class=" w-full bg-[url(./images/core-features-sectionBg.svg)] bg-white bg-no-repeat bg-cover
+             relative bg-center corefeaturesection">
+                <div class="w-[70%] max-w-[1080px] pt-14 mx-auto">
+                    <h2 class="font-serif font-bold text-2xl text-center text-white">Features</h2>
+                    <div class="w-5 h-1 bg-green-600 mx-auto mt-4 mb-6 "></div>
+                    <p class="font-serif text-white text-center gap-x-4 gap-y-5 max-w-[450px] mx-auto">Empower your business with all the right tools to accept
+                         online payments and provide the best customer experience</p>
+                    <div>
+                        <!-- grid -->
+                        
+                         <div class="grid grid-cols-1 md:grid-cols-2 
+                         lg:grid-cols-4 gap-[2rem] mt-8 pb-14">
+                            <!-- card1 -->
+                             <div>
+                            <img 
+                            class="h-8 w-8"
+                            src="./images/instant-activation-icon.svg" alt="">
+                            <h3 class="font-serif text-lg font-bold text-white my-4 ">Instant activation</h3>
+                            <p class="font-serif text-white opacity-80">Get activated and transact within 2 minutes.
+                                Complete online onboarding with minimum documentation.
+                            </p>
+                        </div>
+                           <!-- card2 -->
+                        <div>
+                           <img 
+                           class="h-8 w-8"
+                           src="./images/instant-activation-icon.svg" alt="">
+                           <h3 class="font-serif text-lg font-bold text-white my-4 ">Instant activation</h3>
+                           <p class="font-serif text-white opacity-80">Get activated and transact within 2 minutes.
+                               Complete online onboarding with minimum documentation.
+                           </p>
+                        </div>
+                         <!-- card3 -->
+                        <div>
+                         <img 
+                         class="h-8 w-8"
+                         src="./images/instant-activation-icon.svg" alt="">
+                         <h3 class="font-serif text-lg font-bold text-white my-4 ">Instant activation</h3>
+                         <p class="font-serif text-white opacity-80">Get activated and transact within 2 minutes.
+                             Complete online onboarding with minimum documentation.
+                         </p>
+                        </div>
+                          <!-- card4 -->
+                        <div>
+                          <img 
+                          class="h-8 w-8"
+                          src="./images/instant-activation-icon.svg" alt="">
+                          <h3 class="font-serif text-lg font-bold text-white my-4 ">Instant activation</h3>
+                          <p class="font-serif text-white opacity-80">Get activated and transact within 2 minutes.
+                              Complete online onboarding with minimum documentation.
+                          </p>
+                        </div>
+                           <!-- card5 -->
+                        <div>
+                           <img 
+                           class="h-8 w-8"
+                           src="./images/instant-activation-icon.svg" alt="">
+                           <h3 class="font-serif text-lg font-bold text-white my-4 ">Instant activation</h3>
+                           <p class="font-serif text-white opacity-80">Get activated and transact within 2 minutes.
+                               Complete online onboarding with minimum documentation.
+                           </p>
+                        </div>
+                            <!-- card6 -->
+                        <div>    
+                            <img 
+                            class="h-8 w-8"
+                            src="./images/instant-activation-icon.svg" alt="">
+                            <h3 class="font-serif text-lg font-bold text-white my-4 ">Instant activation</h3>
+                            <p class="font-serif text-white opacity-80">Get activated and transact within 2 minutes.
+                                Complete online onboarding with minimum documentation.
+                            </p>
+                        </div>
+                             <!-- card7 -->
+                            <div>
+                             <img 
+                             class="h-8 w-8"
+                             src="./images/instant-activation-icon.svg" alt="">
+                             <h3 class="font-serif text-lg font-bold text-white my-4 ">Instant activation</h3>
+                             <p class="font-serif text-white opacity-80">Get activated and transact within 2 minutes.
+                                 Complete online onboarding with minimum documentation.
+                             </p>
+                            </div>
+                              <!-- card8 -->
+                            <div>
+                              <img 
+                              class="h-8 w-8"
+                              src="./images/instant-activation-icon.svg" alt="">
+                              <h3 class="font-serif text-lg font-bold text-white my-4 ">Instant activation</h3>
+                              <p class="font-serif text-white opacity-80">Get activated and transact within 2 minutes.
+                                  Complete online onboarding with minimum documentation.
+                              </p>
+                            </div>
+                            </div>
+                             
+                    </div>
+                </div>
+               </section>
+               <!-- Join Razorpay Section -->
+                <section class="bg-white w-full relative pt-40 pb-12 ">
+                    <div class="w-[70%] max-w-[1080px] relative mx-auto flex flex-col md:flex-row -mt-[150px]">
+                        <!-- left part -->
+                         <div class="flex flex-col justify-center max-w-full md:max-w-[calc(100%-500px)]">
+                        
+                         <h2 class="font-serif font-bold text-2xl leading-6 text-deepBlueHead">Join the 50,00,000+ businesses using Razorpay</h2>
+                         <div class="bg-green-600 w-6 h-1 relative leading-[2px] mt-3 mb-8"></div>
+                         <p class="font-serif leading-4 mb-6">We make it easier for you to focus on building great products while we work on simplifying your payments.
+                            Become one of us by 
+                            joining thousands of our happy users and simplify the online payment experience for your customers.</p>
+                         <p class="font-serif">Focus on your business while we handle the complexities of payments for you.</p>
+                        </div>
+                        <!-- right part -->
+                         <div class="h-[400px] w-[500px] relative overflow-y-hidden">
+                           
+                            <div style="background: linear-gradient(180deg, #f4f8ff, #fff0);"
+                            class="absolute w-full h-[150px] top-0 z-30" ></div>
+                            <img src="./images/comanies.png" alt="" 
+                            class="h-auto object-cover absolute  companyimage">
+                            <div style="background: linear-gradient(0deg, #f4f8ff, #fff0);"
+                            class="absolute w-full h-[150px] bottom-0 z-30" ></div>
+                         </div>
+
+                    </div>
+                </section>
+
+                <!-- Testimonial Section -->
+                 <section class="bg-white relative -top-20">
+                    <div class="relative w-10/12 max-w-[1300px] mx-auto my-20">
+                        <img src="./images/feature-section1-dottedrows.png" alt=""
+                        class="absolute w-[200px] top-[8rem] left-[2rem] z-10">
+                        <h2 class="font-serif font-bold text-2xl text-deepBlueHead text-center">An Experience <br>
+                            People Love to Talk About</h2>
+                            <div class="bg-green-400 h-1 w-6 mx-auto mt-6 mb-2"></div>
+
+                    
+                    <!-- left button -->
+                     <button class=" absolute w-[100px] h-[100px] bg-[#f4f8ff] rounded-full left-0 top-1/2
+                     z-20
+                     flex justify-center items-center">
+                        <div class="w-[70px] h-[70px] bg-[#f4f8ff] rounded-full
+                         flex justify-center items-center mix-blend-multiply">
+                            <i class="text-4xl font-bold text-green-600 opacity-60">&lt;</i>
+                        
+                        </div>
+                     </button>
+                       <!-- right button -->
+                       <button class="absolute w-[100px] h-[100px] bg-[#f4f8ff] rounded-full right-0 top-1/2
+                       flex justify-center items-center">
+                          <div class="w-[70px] h-[70px] bg-[#f4f8ff] rounded-full
+                           flex justify-center items-center mix-blend-multiply">
+                              <i class="text-4xl font-bold text-green-600 opacity-60">&#x3e;</i>
+                          
+                          </div>
+                       </button>
+                       
+                     <!-- Main content -->
+                      <div class="flex flex-col xl:flex-row max-w-[860px] items-center mx-auto my-20 space-x-[10rem]">
+                        <!-- Left image -->
+                        <img src="./images/testimonial.jpg" alt=""
+                        loading="lazy"
+                        class="h-[300px] w-[280px] rounded-xl z-20">
+                        <!-- right part -->
+                         <div class="max-w-[400px] space-y-[2px] flex flex-col">
+                            <img src="./images/quotes.svg" alt=""
+                            class="w-[35px] h-[40px] mb-5 xl:order-1">
+                            <p class="font-serif font-extralight text-3xl opacity-60 xl:order-1">Readymade closed wallet solution for quick refunds</p>
+                            <a href="" class="text-gray-500 italic underline xl:order-1">Learn More</a>
+                            <h3 class="font-serif font-extrabold text-2xl -order-1 xl:order-1">Lorem Dolor</h3>
+                            <p class="font-serif font-medium xl:order-1">CEO,XYZ Company</p>
+                            <img src="./images/fake-company-logo.png" alt=""
+                            class="w-[80px] h-[40px] xl:order-1">
+                         </div>
+
+                      </div>
+                      <!-- 6 dots -->
+                       <div class="w-full flex flex-row space-x-2 mx-auto justify-center">
+                        <!-- dot 1 -->
+                        <div class="h-[10px] w-[10px] rounded-full bg-gray-300"></div>
+                       <!-- dot 2 -->
+                       <div class="h-[10px] w-[10px] rounded-full bg-lightBlue300"></div>
+                       <!-- dot 3 -->
+                       <div class="h-[10px] w-[10px] rounded-full bg-gray-300"></div>
+                       <!-- dot 4 -->
+                       <div class="h-[10px] w-[10px] rounded-full bg-gray-300"></div>
+                       <!-- dot 5 -->
+                        <div class="h-[10px] w-[10px] rounded-full bg-gray-300"></div>
+                        <!-- dot 6 -->
+                        <div class="h-[10px] w-[10px] rounded-full bg-gray-300"></div>
+
+                    </div>
+                    
+
+                    </div>
+                 </section>
+
+                 <!-- CTA -->
+                  <section class="bg-[url(./images/CTABg.svg)] w-full bg-white relative bg-cover
+                  bg-no-repeat -mt-40 mb-10 ctasection min-h-[500px]">
+                  <!-- main div -->
+                    <div class="w-[70%] max-w-[1080px] relative flex flex-row items-center justify-between
+                     mx-auto space-x-20 space-y-5 pt-[70px]">
+                        <!-- left part -->
+                         <div class="">
+                            <h2 class="font-mono text-white text-2xl font-bold sm:mt-32">Supercharge your business with Razorpay</h2>
+                            <div class="h-1 w-6 bg-green-400 mt-2 mb-4"></div>
+                            <p class="font-serif text-white">Sign up now to experience the future of payments and offer
+                                your customers the best checkout experience.</p>
+                            <ul class="max-w-[600px] flex flex-row flex-wrap gap-x-[70px] gap-y-[10px] text-white mt-[20px]">
+                                <li class="font-serif text-white flex flex-row">
+                                    <h3 class="text-green-500 text-sm mr-2">&#x2713;</h3>
+                                    <span>Quick Onboarding</span>
+                                </li>
+                                <li class="font-serif text-white flex flex-row">
+                                    <h3 class="text-green-500 text-sm mr-2">&#x2713;</h3>
+                                    <span>Access to entire product suite</span>
+                                </li>
+                                <li class="font-serif text-white flex flex-row">
+                                    <h3 class="text-green-500 text-sm mr-2">&#x2713;</h3>
+                                    <span>API access</span>
+                                </li>
+                                <li class="font-serif text-white flex flex-row">
+                                    <h3 class="text-green-500 text-sm mr-2">&#x2713;</h3>
+                                    <span>24*7 Support</span>
+                                </li>
+                            </ul>
+                            <!-- Signup button -->
+                            <button
+                            class="min-w-[32px] font-serif text-sm font-bold bg-white text-lightBlue300 border flex
+                            rounded hover:text-blue-500 transition-all duration-200 py-3 px-4
+                            mt-4">
+                            Sign Up
+                            <svg
+                            viewBox="0 0 24 24"
+                            focusable="false"
+                            class="w-[14px] h-[14px] ml-3"
+                          >
+                            <path
+                              fill="currentColor"
+                              d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                              
+                            ></path>
+                          </svg>
+                        </button>
+                         </div>
+                         <!-- Right side -->
+                          <img src="./images/ctaImg.svg" alt=""
+                          class="h-[282px] w-[240px] pt-14 hidden md:block">
+                    </div>
+                  </section>
+                  <!-- Footer -->
+                   <footer
+                   style="background: linear-gradient(to right, #eef9fe, #edf7ff)" 
+                   class="w-full bg-white mb-20 opacity-90">
+                    <!-- main div -->
+                    <div class="w-[85%] max-w-[1080px] flex flex-col md:flex-row  justify-between mx-auto -mt-10">
+                <!-- razorpay -->
+                 <div class="w-[32%] ">
+                    <img src="./images/razorpay.png" alt=""
+                    class="h-[25px] w-[150px] mb-4">
+                    <p class="text-sm opacity-60 leading-6 mb-12">
+                        Razorpay is the only payments solution in India that allows businesses to accept,
+                         process and disburse payments with its product suite. It gives you access to all payment modes including credit card, debit card, netbanking,
+                         UPI and popular wallets including JioMoney, Mobikwik, Airtel Money, FreeCharge, Ola Money and PayZapp.
+                        </p>
+                        <p class=" text-sm opacity-60 leading-6 mb-12">
+                            RazorpayX supercharges your business banking experience, bringing effectiveness, efficiency,
+                            and excellence to all financial processes. With RazorpayX, businesses can get
+                             access to fully-functional current accounts, supercharge their payouts and automate payroll compliance.
+                        </p>
+                        <p class=" text-sm opacity-60 leading-6 mb-12">
+                            Manage your marketplace, automate bank transfers, collect recurring payments, share invoices with customers
+                             and avail working capital
+                             loans - all from a single platform. Fast forward your business with Razorpay.
+
+
+                        </p>
+                        <p class=" text-xs opacity-60 leading-2 mb-12">
+                            Disclaimer: The RazorpayX powered Current Account and VISA corporate credit card are
+                             provided by RBI licensed banks. Your RazorpayX powered account is provided by our partner bank, in accordance with RBI regulations. RazorpayX itself is 
+                            not a bank and doesn't hold or claim to hold a banking license.
+                        </p>
+                        <h2 class="text-gray-600 font-bold text-sm">
+                            SUBSCRIBE TO OUR NEWSLETTER</h2>
+                            <div class="relative">
+                            <form action="" 
+                            class="">
+                                <input type="text" placeholder="Your Email Address"
+                                class="border min-w-[100%] h-[30px]">
+                               
+                            </form>
+                            <button class="absolute ml-[250px] -mt-6 text-blue-500 font-bold
+                            text-sm"
+                            >
+                            Subscribe &rarr;</button>
+
+                            </div>
+                            <div class="flex flex-row gap-5 mt-10">
+                                <img src="./images/footerimg1.jpg" alt=""
+                                class="h-[40px] w-[100px]">
+                                <img src="./images/footerimg2.jpg" alt=""
+                                class="h-[70px] w-[100px]">
+                            </div>
+                 </div>
+                 <!-- banking plus -->
+                  <div class="flex flex-col w-[22%] ">
+                  <div class="mb-[25px]">
+                    <!-- banking plus -->
+                    <div>
+                        <h2 class="text-gray-600 font-bold text-lg">
+                            BANKING PLUS</h2>
+                            <ul class="flex flex-col gap-y-[5px]">
+                                <li>
+                                   <a href=""
+                                   class="text-lg text-blue-900 font-bold
+                                   ">
+                                    RazorpayX </a>
+                                </li>
+                                <li>
+                                    <a href=""
+                                    class="text-lg text-blue-900 font-bold
+                                    ">
+                                     Current Accounts </a>
+                                 </li>
+                                 <li>
+                                    <a href=""
+                                    class="text-lg text-blue-900 font-bold
+                                    ">
+                                     Payouts </a>
+                                 </li>
+                                 <li>
+                                    <a href=""
+                                    class="text-lg text-blue-900 font-bold
+                                    ">
+                                     Payout Links </a>
+                                 </li>
+                                 <li>
+                                    <a href=""
+                                    class="text-lg text-blue-900 font-bold
+                                    ">
+                                     Corporate credit card</a>
+                                 </li>
+                                 <li>
+                                    <a href=""
+                                    class="text-lg text-blue-900 font-bold
+                                    ">
+                                     View live demo <span class="bg-green-500 text-white">New</span></a>
+                                 </li>
+                               
+                            </ul>
+                    </div>
+                    
+                  </div>
+                  <!-- lending -->
+                  <div class="">
+                    <div>
+                        <h2 class="text-gray-600 font-bold text-lg">
+                            LENDING</h2>
+                            <ul class="flex flex-col gap-y-[5px]">
+                                <li>
+                                   <a href=""
+                                   class="text-lg text-blue-900 font-bold
+                                   ">
+                                    Razorpay Capital </a>
+                                </li>
+                                <li>
+                                    <a href=""
+                                    class="text-lg text-blue-900 font-bold
+                                    ">
+                                     Instant Settlements </a>
+                                 </li>
+                                 <li>
+                                    <a href=""
+                                    class="text-lg text-blue-900 font-bold
+                                    ">
+                                     Working Capital loans </a>
+                                 </li>
+                                 <li>
+                                    <a href=""
+                                    class="text-lg text-blue-900 font-bold
+                                    ">
+                                     Marketplace Instant Settlements </a>
+                                 </li>
+                                
+                               
+                            </ul>
+                    </div>
+                    
+                  </div>
+                  <!-- Risk and fraud -->
+                  <div class="mt-4">
+                    <div>
+                        <h2 class="text-gray-600 font-bold text-lg">
+                            RISK AND FRAUD</h2>
+                            <ul class="flex flex-col gap-y-[5px]">
+                                <li>
+                                   <a href=""
+                                   class="text-lg text-blue-900 font-bold
+                                   ">
+                                    Thirdwatch </a>
+                                    </li>
+                                    <li>
+                                        <a href=""
+                                        class="text-lg text-blue-900 font-bold
+                                        ">
+                                         PrePay Cod <span class="bg-green-500 text-white">New</span></a>
+                                     </li>
+                               
+                                
+                               
+                            </ul>
+                    </div>
+                    
+                  </div>
+                  <!-- become a partner -->
+                  <div class="mt-4">
+                    <div>
+                        <h2 class="text-gray-600 font-bold text-lg">
+                            BECOME A PARTNER</h2>
+                            <ul class="flex flex-col gap-y-[5px]">
+                                <li>
+                                   <a href=""
+                                   class="text-lg text-blue-900 font-bold
+                                   ">
+                                    Refer and earn </a>
+                                    </li>
+                                    <li>
+                                        <a href=""
+                                        class="text-lg text-blue-900 font-bold
+                                        ">
+                                         Onboarding APIs</a>
+                                     </li>
+                               
+                                
+                               
+                            </ul>
+                    </div>
+                    
+                  </div>
+                  <!-- more -->
+                  <div>
+                    <h2 class="text-gray-600 font-bold text-lg mt-4">
+                        More</h2>
+                        <ul class="flex flex-col gap-y-[5px]">
+                            <li>
+                               <a href=""
+                               class="text-lg text-blue-900 font-bold
+                               ">
+                                Route </a>
+                                </li>
+                                <li>
+                                    <a href=""
+                                    class="text-lg text-blue-900 font-bold
+                                    ">
+                                     Invoices</a>
+                                 </li>
+                                 <li>
+                                    <a href=""
+                                    class="text-lg text-blue-900 font-bold
+                                    ">
+                                     Freelancer payments </a>
+                                     </li>
+                                     <li>
+                                        <a href=""
+                                        class="text-lg text-blue-900 font-bold
+                                        ">
+                                         International </a>
+                                         </li>
+                                         <li>
+                                            <a href=""
+                                            class="text-lg text-blue-900 font-bold
+                                            ">
+                                             Flash Checkouts </a>
+                                             </li>
+                                             <li>
+                                                <a href=""
+                                                class="text-lg text-blue-900 font-bold
+                                                ">
+                                                 UPI </a>
+                                                 </li>
+                                                 <li>
+                                                    <a href=""
+                                                    class="text-lg text-blue-900 font-bold
+                                                    ">
+                                                     ePOS </a>
+                                                     </li>
+                                                     <li>
+                                                        <a href=""
+                                                        class="text-lg text-blue-900 font-bold
+                                                        ">
+                                                         Checkout demo </a>
+                                                         </li>
+
+                                                         <li>
+                                                            <a href=""
+                                                            class="text-lg text-blue-900 font-bold
+                                                            ">
+                                                             RazorpayX payroll</a>
+                                                             </li>
+                           
+                            
+                           
+                        </ul>
+
+                </div>
+                 
+                    </div>
+                     <!-- accept payments -->
+                     <div class="flex flex-col w-[22%] ">
+                        <div class="mb-[25px]">
+                          <!-- Accept payments -->
+                          <div>
+                              <h2 class="text-gray-600 font-bold text-lg">
+                                  ACCEPT PAYMENTS</h2>
+                                  <ul class="flex flex-col gap-y-[5px]">
+                                      <li>
+                                         <a href=""
+                                         class="text-lg text-blue-900 font-bold
+                                         ">
+                                          Payment gateway </a>
+                                      </li>
+                                      <li>
+                                          <a href=""
+                                          class="text-lg text-blue-900 font-bold
+                                          ">
+                                           payment page </a>
+                                       </li>
+                                       <li>
+                                          <a href=""
+                                          class="text-lg text-blue-900 font-bold
+                                          ">
+                                           Payment link </a>
+                                       </li>
+                                       <li>
+                                          <a href=""
+                                          class="text-lg text-blue-900 font-bold
+                                          ">
+                                           QR code </a>
+                                       </li>
+                                       <li>
+                                          <a href=""
+                                          class="text-lg text-blue-900 font-bold
+                                          ">
+                                           Subscription</a>
+                                       </li>
+                                       <li>
+                                          <a href=""
+                                          class="text-lg text-blue-900 font-bold
+                                          ">
+                                           Smart collection </a>
+                                       </li>
+                                     
+                                  </ul>
+                          </div>
+                          
+                        </div>
+                        <!-- Developers -->
+                        <div class="">
+                          <div>
+                              <h2 class="text-gray-600 font-bold text-lg">
+                                  DEVELOPERS</h2>
+                                  <ul class="flex flex-col gap-y-[5px]">
+                                      <li>
+                                         <a href=""
+                                         class="text-lg text-blue-900 font-bold
+                                         ">
+                                          Docs </a>
+                                      </li>
+                                      <li>
+                                          <a href=""
+                                          class="text-lg text-blue-900 font-bold
+                                          ">
+                                           Integrations </a>
+                                       </li>
+                                       <li>
+                                          <a href=""
+                                          class="text-lg text-blue-900 font-bold
+                                          ">
+                                           API reference </a>
+                                       </li>
+                                       
+                                  </ul>
+                          </div>
+                          
+                        </div>
+                        <!-- Resources -->
+                        <div class="mt-4">
+                          <div>
+                              <h2 class="text-gray-600 font-bold text-lg">
+                                  RESOURCES</h2>
+                                  <ul class="flex flex-col gap-y-[5px]">
+                                      <li>
+                                         <a href=""
+                                         class="text-lg text-blue-900 font-bold
+                                         ">
+                                          Blog </a>
+                                          </li>
+                                          <li>
+                                              <a href=""
+                                              class="text-lg text-blue-900 font-bold
+                                              ">
+                                               Customer stories</a>
+                                           </li>
+                                           <li>
+                                            <a href=""
+                                            class="text-lg text-blue-900 font-bold
+                                            ">
+                                             Events</a>
+                                         </li>
+                                         <li>
+                                            <a href=""
+                                            class="text-lg text-blue-900 font-bold
+                                            ">
+                                             Chargeback guide</a>
+                                         </li>
+                                         <li>
+                                            <a href=""
+                                            class="text-lg text-blue-900 font-bold
+                                            ">
+                                             Settlement guide</a>
+                                         </li>
+                                     
+                                      
+                                     
+                                  </ul>
+                          </div>
+                          
+                        </div>
+                        <!--    Solutions-->
+                        <div class="mt-4">
+                          <div>
+                              <h2 class="text-gray-600 font-bold text-lg">
+                                  SOLUTIONS</h2>
+                                  <ul class="flex flex-col gap-y-[5px]">
+                                      <li>
+                                         <a href=""
+                                         class="text-lg text-blue-900 font-bold
+                                         ">
+                                          Education </a>
+                                          </li>
+                                          <li>
+                                              <a href=""
+                                              class="text-lg text-blue-900 font-bold
+                                              ">
+                                               Ecommerce</a>
+                                           </li>
+                                           <li>
+                                            <a href=""
+                                            class="text-lg text-blue-900 font-bold
+                                            ">
+                                             Saas</a>
+                                         </li>
+                                         <li>
+                                            <a href=""
+                                            class="text-lg text-blue-900 font-bold
+                                            ">
+                                             BFSI</a>
+                                         </li>
+                                      
+                                     
+                                  </ul>
+                          </div>
+                          
+                        </div>
+                        <!-- Free tools -->
+                        <div>
+                          <h2 class="text-gray-600 font-bold text-lg mt-4">
+                              FREE TOOLS</h2>
+                              <ul class="flex flex-col gap-y-[5px]">
+                                  <li>
+                                     <a href=""
+                                     class="text-lg text-blue-900 font-bold
+                                     ">
+                                      GST calculator </a>
+                                      </li>
+                                      <li>
+                                          <a href=""
+                                          class="text-lg text-blue-900 font-bold
+                                          ">
+                                           Online TCS payment</a>
+                                       </li>
+                                       <li>
+                                          <a href=""
+                                          class="text-lg text-blue-900 font-bold
+                                          ">
+                                           GST number search <span class="bg-green-500 text-white">NEW</span></a>
+                                           </li>
+                                           
+                                                 
+                                                   
+                                                       
+                                                        
+      
+                                                              
+                                 
+                                  
+                                 
+                              </ul>
+      
+                      </div>
+                       
+                          </div>
+                  <!-- company -->
+                  <div class="flex flex-col w-[22%] ">
+                    <div class="mb-[25px]">
+                      <!-- Company -->
+                      <div>
+                          <h2 class="text-gray-600 font-bold text-lg">
+                              COMPANY</h2>
+                              <ul class="flex flex-col gap-y-[5px]">
+                                  <li>
+                                     <a href=""
+                                     class="text-lg text-blue-900 font-bold
+                                     ">
+                                      About Us </a>
+                                  </li>
+                                  <li>
+                                      <a href=""
+                                      class="text-lg text-blue-900 font-bold
+                                      ">
+                                       Careees <span class="bg-green-400 text-white">we are hiring</span> </a>
+                                   </li>
+                                   <li>
+                                      <a href=""
+                                      class="text-lg text-blue-900 font-bold
+                                      ">
+                                       Terms of use </a>
+                                   </li>
+                                   <li>
+                                      <a href=""
+                                      class="text-lg text-blue-900 font-bold
+                                      ">
+                                       Privacy policy </a>
+                                   </li>
+                                   <li>
+                                      <a href=""
+                                      class="text-lg text-blue-900 font-bold
+                                      ">
+                                       Grievience redressak</a>
+                                   </li>
+                                   <li>
+                                      <a href=""
+                                      class="text-lg text-blue-900 font-bold
+                                      ">
+                                       Responsible disclosure </a>
+                                   </li>
+                                   <li>
+                                    <a href=""
+                                    class="text-lg text-blue-900 font-bold
+                                    ">
+                                     Partners </a>
+                                 </li>
+                                 <li>
+                                    <a href=""
+                                    class="text-lg text-blue-900 font-bold
+                                    ">
+                                     White papers </a>
+                                 </li>
+                                 <li>
+                                    <a href=""
+                                    class="text-lg text-blue-900 font-bold
+                                    ">
+                                     Corporate information </a>
+                                 </li>
+                                 
+                              </ul>
+                      </div>
+                      
+                    </div>
+                    <!-- Help and support -->
+                    <div class="">
+                      <div>
+                          <h2 class="text-gray-600 font-bold text-lg">
+                              HELP AND SUPPORT</h2>
+                              <ul class="flex flex-col gap-y-[5px]">
+                                  <li>
+                                     <a href=""
+                                     class="text-lg text-blue-900 font-bold
+                                     ">
+                                      Help </a>
+                                  </li>
+                                  <li>
+                                      <a href=""
+                                      class="text-lg text-blue-900 font-bold
+                                      ">
+                                       Knowledge base </a>
+                                   </li>
+                                   
+                                   
+                              </ul>
+                      </div>
+                      
+                    </div>
+                    <!-- Find us online -->
+                    <div class="mt-4">
+                      <div>
+                          <h2 class="text-gray-600 font-bold text-lg">
+                              FIND US ONLINE</h2>
+                              <ul class="flex flex-col gap-y-[5px]">
+                                  
+                   
+                      </div>
+                      <div class="flex flex-row gap-x-4 w-full mt-4 mb-4">
+                        <img src="./images/facebook-icon-2b65a866.svg " alt="">
+                        <img src="./images/twitter-icon-82cbd3e5.svg" alt="">
+                        <img src="./images/instagram-icon-6c2b0c16.svg" alt="">
+                        <img src="./images/github-icon-e2d5f6a2.svg" alt="">
+                        <img src="./images/linkedin-icon-5471e826.svg" alt=""
+                        height="24px"
+                        width="24px">
+                      </div>
+                    
+                  
+                  </div>
+
+                  <!-- Refd office ADDRESS -->
+                  <h2 class="text-gray-600 font-bold text-lg mt-6">
+                    REGD OFFICE ADDRESS </h2>
+                    <p class="text-sm leading-5 mt-5">
+                        Razorpay Software Private Limited, <br>
+                    1st Floor, SJR Cyber,<br>
+                        22 Laskar Hosur Road, Adugodi,<br>
+                    Bengaluru, 560030,<br>
+                        Karnataka, India<br>
+                        CIN: U72200KA2013PTC097389
+                    </p>
+                    <p class="text-sm leading-5 mt-5">
+                        © Razorpay 2022<br>
+
+                        All Rights Reserved
+                    </p>
+                    </div>
+                    
+                   </footer>
+
+    </div>
+</body>
+</html>
